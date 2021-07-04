@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Public Sans', sans-serif;
+    font-size: 18px;
+
+}
+
+main{
+    width: 20.83rem;
+    @media screen and (min-width: 1440px) {
+        width: 80rem;
+    }
+    overflow: hidden;
+}
+.mobile{
+    display: block;
+    @media screen and (min-width: 1440px) {
+        display: none;
+    }
+}
+
+.desktop{
+    display: none;
+    @media screen and (min-width: 1440px) {
+        display: block;
+    }
+}
+
+
+
+.btn{
+    padding: 0.71rem 0rem;
+    font-size: 0.8rem;
+    width: 9rem;
+    border: 0;
+    border-radius: 1.3rem;
+    color: $white;
+    background: $gradient;
+    cursor: pointer;
+
+    &:hover{
+        filter: saturate(60%) brightness(120%);
+    }
+}

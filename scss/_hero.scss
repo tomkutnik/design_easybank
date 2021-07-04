@@ -1,0 +1,87 @@
+.hero{
+    width: 20.83rem;
+    height: 37.5rem;
+    background: $veryLightGray;
+    position: relative;
+
+    @media screen and (min-width: 1440px) {
+        width: 80rem;
+        height: 36.5rem;  }
+
+    &__background{
+        position: absolute;
+        top: -3.5rem;
+        @media screen and(min-width: 1440px) {
+            position: absolute;
+            top: -14.4rem;
+            left: 34.7rem;
+        }
+    }
+    &__mock{
+        position: absolute;
+        top: -6.63rem;
+        left: 0.9rem;
+        width: 19rem;
+        @media screen and(min-width: 1440px) {
+            position: absolute;
+            top: -6.7rem;
+            left: 44.7rem;
+            width: 42.5rem;
+            z-index: 1;
+        }
+    }
+
+    &__header{
+        text-align: center;
+        position: absolute;
+        top: 17.9rem;
+        left: 0.45rem;
+        font-size: 2.12rem;
+        line-height: 2.6rem;
+        font-weight: 400;
+        width: 20rem;
+        color: $darkBlue;
+
+        @media screen and (min-width: 1440px) {
+            text-align: left;
+            top: 9.4rem;
+            left: 9.2rem;
+            font-size: 2.97rem;
+            line-height: 3.6rem;
+            width: 25rem;
+        }
+    }
+
+    &__text{
+        position: absolute;
+        top: 24rem;
+        left: 0.9rem;
+        line-height: 1.4rem;
+        font-size: 0.805rem;
+        text-align: center;
+        width: 19rem;
+        color: $grayishBlue;
+
+        @media screen and (min-width: 1440px) {
+            top: 17.9rem;
+            left: 9.1rem;
+            line-height: 1.54rem;
+            font-size: 0.97rem;
+            text-align: left;
+            width: 25rem;
+
+        }
+    }
+
+    &__btn{
+        position: absolute;
+        top: 30rem;
+        left: 5.9rem;
+
+        @media screen and (min-width: 1440px) {
+            position: absolute;
+            top: 24.6rem;
+            left: 9.16rem;
+        }
+    }
+}

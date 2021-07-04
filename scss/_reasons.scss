@@ -1,0 +1,103 @@
+.reasons{
+    width: 20.83rem;
+    background: $lightGrayishBlue;
+    padding-top: 3.3rem;
+    height: 72.5rem;
+
+    @media screen and (min-width: 1440px) {
+        position: relative;
+        width: 80rem;
+        padding-top: 6rem;
+        height: 37.5rem;
+    }
+
+    &__header{
+        text-align: center;
+        font-size: 1.71rem;
+        line-height: 2.1rem;
+        font-weight: 400;
+        width: 12rem;
+        margin-left: 2.6em; 
+
+        @media screen and (min-width: 1440px) {
+            text-align: left;
+            font-size: 2.135rem;
+            line-height: 2.1rem;
+            font-weight: 400;
+            margin-left: 4.3em; 
+            width: 32rem;
+        }
+    }
+
+    &__text{
+        text-align: center;
+        font-size: 0.81rem;
+        line-height: 1.4rem;
+        width: 18rem;
+        margin-top: 0.85rem;
+        margin-left: 1.4rem;
+        color: $grayishBlue;
+
+        @media screen and (min-width: 1440px) {
+            text-align: left;
+            font-size: 0.968rem;
+            line-height: 1.5rem;
+            width: 36rem;
+            margin-top: 1.7rem;
+            margin-left: 9.1rem;
+        }
+    }
+
+    &__itemBox{
+        display: flex;
+        flex-wrap: wrap;
+        padding-top: 3.1rem;
+        text-align: center;
+
+        @media screen and (min-width: 1440px) {
+            padding-top: 4.1rem;
+            text-align: left;
+            margin-left: 9.2rem;
+        }
+    }
+
+     &__item{
+         flex: 0 0 100%;
+         margin-bottom: 1.75rem;
+         @media screen and (min-width: 1440px) {
+            flex: 0 0 22.37%;
+        }
+
+
+         &--pic{
+             margin-bottom: 1.27rem;
+             @media screen and (min-width: 1440px) {
+                margin-bottom: 2.1rem;
+            }
+         }
+         &--header{
+             font-size: 1.04rem;
+             margin-bottom: 1.05rem;
+             font-weight: 400;
+
+             @media screen and (min-width: 1440px) {
+                font-size: 1.24rem;        
+                margin-bottom: 1.4rem;
+            }
+         }
+         &--text{
+             width: 18rem;
+             margin: auto;
+             font-size: 0.8rem;
+             line-height: 1.4rem;
+             color: $grayishBlue;
+             @media screen and (min-width: 1440px) {
+                font-size: 0.86rem;
+                width: 14.17rem;
+                margin: 0;
+                line-height: 1.45rem;
+            }
+         }
+     }   
+
+}

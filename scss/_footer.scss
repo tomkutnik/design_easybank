@@ -1,0 +1,109 @@
+.footer{
+    width: 20.83rem;
+    background: $darkBlue;
+    color: $white;
+    text-align: center;
+    padding-top: 2.2rem;
+
+    @media screen and (min-width: 1440px) {
+        width: 80rem;
+        text-align: left;
+        padding-top: 0rem;
+    }
+
+    &__logo{
+        @media screen and (min-width: 1440px) {
+         margin-left: 0.4rem;
+        }
+    }
+
+    &__wrapper{    
+        @media screen and (min-width: 1440px) {
+            padding-top: 2.7rem;
+            text-align: center;
+            display: inline-block;
+            margin-left: 7.35rem;
+           }
+
+        
+    }
+    &__media{
+        margin-top: 1.57rem;
+        margin-left: 0.6rem;
+        margin-bottom: 1.4rem;
+
+        @media screen and (min-width: 1440px) {
+            margin-top: 2.9rem;
+            margin-left: 1.78rem;
+
+        }
+
+
+        &--item{
+            height: 1.33rem;
+            margin-right: 0.58rem;
+            @media screen and (min-width: 1440px) {
+                height: 1.1rem;
+                margin-right: 0.48rem;
+                cursor: pointer;
+
+
+                &:hover{
+                    filter: invert(69%) sepia(45%) saturate(613%) hue-rotate(107deg) brightness(189%) contrast(86%);
+
+                }
+            }
+        }
+    }
+
+    &__nav{
+        list-style: none;
+        line-height: 1.84rem;
+        margin-bottom: 0.15rem;
+
+        
+        @media screen and (min-width: 1440px) {
+           display: inline-block;
+           position: relative;
+           top: -0.4rem;
+           margin-left: 6.5rem;
+           margin-right: 0.3rem;
+           line-height: 1.9rem;
+           margin-top: 0.5rem;
+        }
+        &--item{  
+            font-size: 0.82rem;
+            cursor: pointer;
+            &:hover{
+                filter: invert(69%) sepia(45%) saturate(613%) hue-rotate(107deg) brightness(189%) contrast(86%);
+
+            }
+        }
+      
+    }
+
+    &__btn{
+        margin-top: 1.6rem;
+        
+        @media screen and (min-width: 1440px) {
+            position: relative;
+            top: -3.75rem;
+            margin-left: 20.5rem;
+     
+        }
+    }
+
+    &__info{
+        margin-top: 1.6rem;
+        font-size: 0.81rem;
+        padding-bottom: 2.5rem;
+        color: $grayishBlue;
+        @media screen and (min-width: 1440px) {
+            position: relative;
+            top: -4.5rem;
+            font-size: 0.805rem;
+            margin-left: 58.65rem;
+     
+        }
+    }
+}
